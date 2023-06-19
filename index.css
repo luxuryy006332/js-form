@@ -1,0 +1,146 @@
+/* body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+} */
+
+
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form h1 {
+    text-align: center;
+    color: #0f2027;
+
+}
+
+#form {
+    width: 300px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 90%;
+    padding: 10px;
+    
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#form .signBut {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#see-password {
+    width: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    border: none;
+}
+
+#see-password img {
+    width: 22px;
+}
+
+.input-control .error {
+    font-size: 9px;
+    height: 20px;
+    color: red;
+}
+
+.input-control.error input {
+    border: 1px solid red;
+}
+
+.input-control.succes input {
+    border: 1px solid rgb(72, 255, 0);
+} 
+
+
+
